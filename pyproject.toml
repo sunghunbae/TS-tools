@@ -3,5 +3,6 @@ name = "tstools"
 version = "1.1.0"
 description = "Tools to locate transition state geometries based on a reaction SMILES input"
 authors = [{name = "Thijs Stuyver"}]
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.10"
