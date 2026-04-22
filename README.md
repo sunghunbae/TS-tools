@@ -2,20 +2,19 @@
 
 This is the repository corresponding to the TS-tools project.
 
+### Install and Getting Started with Pixi
+
+Please install pixi: https://pixi.prefix.dev/latest/installation/
+
+```bash
+$ git clone https://github.com/sunghunbae/TS-tools.git
+$ cd TS-tools
+$ pixi install
+$ pixi shell
+```
+
 ### Setting up the environment
 
-To set up the ts-tools conda environment:
-
-```
-conda env create -f environment.yml
-```
-
-To install the TS-tools package, activate the ts-tools environment and run the following command within the TS-tools directory:
-
-```
-conda activate ts-tools
-pip install .
-```
 
 Additionally, Gaussian16, xTB and CREST need to be available. In HPC environments, this can typically be achieved by loading the corresponding module to the path:
 

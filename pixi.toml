@@ -1,0 +1,21 @@
+[workspace]
+authors = ["Sung-Hun Bae <sunghun.bae@gmail.com>"]
+channels = ["conda-forge"]
+name = "TS-tools"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "==3.10"
+pandas = ">=2.3.3,<3"
+pebble = ">=5.2.0,<6"
+tqdm = ">=4.67.3,<5"
+rdkit = ">=2025.9.5,<2026"
+xyz2mol = ">=0.1.2,<0.2"
+autode = ">=1.4.5,<2"
+scikit-learn = ">=1.7.2,<2"
+
+[pypi-dependencies]
+tstools = { path = ".", editable = true }
